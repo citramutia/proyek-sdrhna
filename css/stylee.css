@@ -1,0 +1,91 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0%;
+    
+}
+
+.navbar{
+    background: whitesmoke;
+    height: 85px;
+    display: flex;
+    padding: 0 3%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar > h1 {
+    font-size: 20px;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-menu button{
+    color: black;
+}
+
+.container{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    padding-left: 15%;
+}
+
+.container > div {
+    width: 50%;
+    align-self: center;
+    padding-left: 50px;
+}
+
+.container h1{
+    font-size: 55px;
+
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.container > img {
+    align-self: center;
+    
+}
+
+.mycareer {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    padding-left: 15%;
+    align-items: center;
+}
+
+.mycareer > div {
+    width: 50%;
+    align-self: center;
+    padding-left: 30px;
+}
+
+.mycareer h2{
+    font-size: 40px;
+}
+
+.working {
+    height: 400px;
+    background-color: white;
+    padding-left: 15%;
+}
+
+.working h2{
+    font-size: 30px;
+}
+
+.working > img{
+    border-radius: 100%;
+}
+
+.footer{
+    text-align: center;
+}
